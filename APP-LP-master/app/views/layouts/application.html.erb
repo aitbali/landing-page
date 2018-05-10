@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Apprenez à coder en 80 jours et changez de vie!</title>
+
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118991875-1"></script>
+      <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+      
+       gtag('config', 'UA-118991875-1');
+      </script>
+    <title>Boot</title>
+    <title>Apprenez à coder en 80 jours et changé de vie!</title>
+
+    <meta name="Description" CONTENT="Rejoignez une vraie communauté tourner vers l'échange et l'apprentissage pour apprendre à coder plus rapidement que nul par ailleurs.">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <meta property="og:url"         content="https://hidden-forest-99009.herokuapp.com/"/>
+    <meta property="og:title"       content="Apprend à coder en 80 jours!"/>
+    <meta property="og:description" content="Fais le pas comme des déjà des centaines et devient devellopeur!"/>
+    <meta property="og:image"       content="http://www.unitingnc.org/wp-content/uploads/2014/11/Coding_group_withYeva.jpg"/>
+    <meta name="robots"             content="noindex,nofollow">
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
